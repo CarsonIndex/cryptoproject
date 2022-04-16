@@ -5,3 +5,14 @@ body {
 p {
     color: white;
 }
+
+#homebox {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
