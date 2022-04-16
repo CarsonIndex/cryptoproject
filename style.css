@@ -1,0 +1,84 @@
+body {
+    background-color: BLACK;
+}
+
+p {
+    color: WHITE;
+}
+
+#innerbox1 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#innerbox2 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#innerbox3 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#innerbox4 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#innerbox5 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#innerbox6 {
+    width: 150px;
+    height: 100px;
+    border: 2px solid lightgreen;
+    border-radius: 20px;
+    margin: 25px;
+    text-align: center;
+    padding-top: 50px;
+    cursor: pointer;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 700px;
+    height: 400px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: auto;
+}
