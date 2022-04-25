@@ -2,22 +2,11 @@ body {
     background-color: black;
 }
 
-p, p3, a, ul, label {
+p {
     color: white;
 }
 
 #homebox {
-    width: 150px;
-    height: 100px;
-    border: 2px solid lightgreen;
-    border-radius: 20px;
-    margin: 25px;
-    text-align: center;
-    padding-top: 50px;
-    cursor: pointer;
-}
-
-#IDbox {
     width: 150px;
     height: 100px;
     border: 2px solid lightgreen;
