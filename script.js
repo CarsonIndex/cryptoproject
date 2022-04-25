@@ -17,7 +17,7 @@ function openSellInvestment() {
 }
 
 function openViewInvestments() {
-    window.location.href = 'https://CarsonIndex.github.io/cryptoproject/viewinvestment';
+    window.location.href = 'https://CarsonIndex.github.io/cryptoproject/viewinvestments';
 }
 
 function openViewInvestors() {
