@@ -7,9 +7,29 @@
     <script src="script.js"></script>
 </head>
 <body>
-<p>Add Crypto Page</p>
+
 <div id="homebox" onclick="openHomePage()">
     <p>Home</p>
 </div>
+
+<label for="CryptoID">Crypto ID:</label>
+<input type="text" id="CryptoID" name="CryptoID">
+
+<br><br>
+
+<label for="CryptoName">Crypto Name:</label>
+<input type="text" id="CryptoName" name="CryptoName">
+
+<br><br>
+
+<label for="CryptoValue">Crypto Value:</label>
+<input type="text" id="CryptoValue" name="CryptoValue">
+
+<div id="IDbox" onclick="getAPI()">
+    <p>Search Database</p>
+</div>
+
+<p id = "resulttext"></p>
+
 </body>
 </html>
