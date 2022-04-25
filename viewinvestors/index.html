@@ -7,9 +7,21 @@
     <script src="script.js"></script>
 </head>
 <body>
-<p>View Investors Page</p>
 <div id="homebox" onclick="openHomePage()">
     <p>Home</p>
+</div>
+
+<label for="investorID">Cryptocurrency ID:</label>
+<input type="text" id="investorID" name="investorID">
+<p3></p3>
+
+<div id="IDbox" onclick="getAPI()">
+    <p>Search Database</p>
+</div>
+<div id ="APIFetching">
+    <ul id="investlist">
+
+    </ul>
 </div>
 </body>
 </html>
