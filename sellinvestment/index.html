@@ -7,9 +7,34 @@
     <script src="script.js"></script>
 </head>
 <body>
-<p>Sell Investment Page</p>
+
 <div id="homebox" onclick="openHomePage()">
     <p>Home</p>
 </div>
+
+<label for="Shares">Shares:</label>
+<input type="text" id="Shares" name="Shares">
+
+<br><br>
+
+<label for="Purchase">Purchase Price:</label>
+<input type="text" id="Purchase" name="Purchase">
+
+<br><br>
+
+<label for="InvestorID">Investor ID:</label>
+<input type="text" id="InvestorID" name="InvestorID">
+
+<br><br>
+
+<label for="CryptoID">Crypto ID:</label>
+<input type="text" id="CryptoID" name="CryptoID">
+
+<div id="IDbox" onclick="getAPI()">
+    <p>Search Database</p>
+</div>
+
+<p id = "resulttext"></p>
+
 </body>
 </html>
